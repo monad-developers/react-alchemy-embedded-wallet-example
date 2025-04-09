@@ -11,8 +11,13 @@ function App() {
   return (
     <>
       <LoginButton />
+
+      {/* THIS WORKS! */}
       <SignMessageButton />
+
+      {/* THIS ERRORS! "Error: Iframe element with ID turnkey-iframe already exists"*/}
       <SignMessageWebSignerButton />
+
       {/* <SignTransactionButton />
       <SendTransactionButton />
       <BatchSignTransactionButton />
